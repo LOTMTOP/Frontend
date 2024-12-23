@@ -1,0 +1,106 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header styles*/
+header {
+  display: flex;
+  border: 2px solid;
+  border-bottom: none;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul  {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+/*Article styles because I couldn't figure out how to place this section while inside the header or main, so I seperated it from both*/
+
+article{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid;
+  border-top: none;
+}
+
+/*Main Styles*/
+
+main {
+  display: flex;
+  text-align: center;
+}
+
+.projects {
+  border: 2px solid;
+  border-top: none;
+  padding: 50px;
+  text-align: left;
+}
+
+.projects td  {
+  border-bottom: 2px solid;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid;
+}
+
+.work-exp {
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+  padding: 50px;
+}
+
+.open-source {
+  border-right: 2px solid;
+  padding: 50px;
+}
+
+.education {
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  padding: 50px;
+}
+
+.education ul {
+  list-style-type: none;
+}
+
+/*Aside Styles*/
+
+aside {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid;
+  border-top: none;
+  border-bottom: none;
+}
+
+
+aside .review-1, .review-2, .review-3 {
+  border: 2px solid;
+  border-radius: 15%;
+  margin: 15px;
+  max-width: 200px;
+  padding: 20px;
+}
+/*Footer Styles*/
+footer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+  border-top: none;
+}
